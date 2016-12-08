@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -i "s/'providers' => \[/'providers' => \[ @@@namespacevendor\\\\@@@namespacepackage_name\\\\@@@providerpackage_nameServiceProvider::class,/g" ./config/app.php
+sed -i "s/'providers' => \[/'providers' => \[ B2msrl\\\\Testpackage2\\\\Testpackage2ServiceProvider::class,/g" ./config/app.php
